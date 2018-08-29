@@ -67,12 +67,12 @@
 
 		        if (nroArreglo[posicion] == 1) {
 
-		        	$(this).css("background-color", "red");
+		        	$(this).css("background-color", "orange");
 		        	alert("Usted a perdido!");
 		        	location.reload();
 		        }
 		        else{
-		        	$(this).css("background-color", "green");
+		        	$(this).css("background-color", "blue");
 		        }
 		        console.log("se ejecuta");
 		    });
@@ -130,10 +130,6 @@
 				</tr>
 			</table>
 		</div>
-
-		
-
-	</div>
-	
+	</div>	
 </body>
 </html>
